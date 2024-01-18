@@ -1,0 +1,28 @@
+.h1-score {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.button-histo {
+    background-color: var(--blanc);
+    color: var(--rose);
+    text-align: center;
+    margin: 2rem 5rem;
+    width: 15rem;
+    height: 2rem;
+    border: 0;
+    font-weight: bold;
+}
+
+.button-analyse {
+background-color: var(--rose);
+color: var(--blanc);
+text-align: center;
+margin: 2rem 5rem;
+width: 15rem;
+height: 2rem;
+border: 0;
+font-weight: bold;
+}
