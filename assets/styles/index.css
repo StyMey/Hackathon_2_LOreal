@@ -7,6 +7,8 @@
 
 .h2-index {
     font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
 }
 
 .img-skin-genius {
@@ -46,29 +48,36 @@ background-color: var(--rose);
 color: var(--blanc);
 text-align: center;
 margin: 2rem 5rem;
-width: 15rem;
+width: 17rem;
 height: 2rem;
 border: 0;
-font-weight: bold;
+font-size: 14px;
+padding:5px 5px 5px;
+}
+
+.analyse-skin-genius-graph {
+    margin-bottom: 1rem;
 }
 
 .uk-flex {
-    display: flex;
-    border-color:transparent;
-    flex-wrap: wrap;
-   justify-content: space-around;
-   justify-content: space-between;
-   padding: 1rem;
+display: flex;
+border-color:transparent;
+flex-wrap: wrap;
+justify-content: space-around;
+justify-content: space-between;
+padding: 1rem;
 }
 
 .uk-card {
     background-color: var(--grisclair);
     color: var(--noir);
     font-size: 15px;
-    width: 160px;
+    width: 170px;
     height: 15px;
-    padding:1px 5px 5px 5px;
+    padding:5px 5px 5px 5px;
     margin: 10px;
+    margin-bottom: 1px;
+    text-align: left;
 }
 
 .uk-carda {
@@ -76,11 +85,12 @@ font-weight: bold;
     color: var(--blanc);
     font-weight: bold;
     border-radius: 5rem;
-    width: 140px;
+    width: 110px;
     height: 15px;
     padding:1px 1px 5px 1px;
     margin: 10px;
     font-size: 13px;
+    margin-bottom: 1px;
 }
 
 .uk-cardb {
@@ -88,11 +98,12 @@ font-weight: bold;
     color: var(--blanc);
     font-weight: bold;
     border-radius: 5rem;
-    width: 140px;
+    width: 110px;
     height: 15px;
     padding:1px 1px 5px 1px;
     margin: 10px;
     font-size: 13px;
+    margin-bottom: 1px;
 }
 
 .uk-cardc {
@@ -100,11 +111,15 @@ font-weight: bold;
     color: var(--blanc);
     font-weight: bold;
     border-radius: 5rem;
-    width: 140px;
+    width: 110px;
     height: 15px;
     padding:1px 1px 5px 1px;
     margin: 10px;
     font-size: 13px;
+    margin-bottom: 1px;
 }
 
-
+.maderniererecommandation-img {
+    border-radius: 2rem;
+    width: 20rem;
+}

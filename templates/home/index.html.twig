@@ -101,21 +101,22 @@
 
 			<div class="analyse-skin-genius">
 				<h2 class="h2-index">Ma dernière analyse SKIN-GENIUS</h2>
-				<button type="submit" class="button-skin-genius" href="{{ path('app_score') }}">
-					VOIR MES STATISTIQUES DE PEAU</button>
+				<div class="analyse-skin-genius-graph">
+					{{ content|raw }}
+				</div>
+				<a href="{{ path('app_score') }}" class="button-skin-genius">VOIR MES STATISTIQUES DE PEAU</a>
 			</div>
 
 			<div class="photo-skin-genius">
 				<h2 class="h2-index">Ma dernière photo</h2>
 				<img src="{{ asset('images/photo.png') }}" alt="Ma dernière photo" class="img-photo">
-				<button class="button-skin-genius">
-					VOIR TOUTES MES PHOTOS</button>
+				<button class="button-skin-genius">VOIR TOUTES MES PHOTOS</button>
 			</div>
 
 			<div class="recommandation-skin-genius">
 				<h2 class="h2-index">Ma dernière recommandation</h2>
-				<button class="button-skin-genius">
-					VOIR TOUTES MES ROUTINES BEAUTE</button>
+				<img class="maderniererecommandation-img" src="{{ asset('images/maderniererecommandation.png') }}">
+
 			</div>
 
 		</div>
