@@ -9,34 +9,115 @@
 	<main class="home">
 		<div class="container-index">
 
-			<h1 class="h1-index">Bonjour!</h1>
+			<div class="h1-index-home">
+				<h1 class="h1-index">Bonjour, Ingrid!</h1>
+			</div>
+
+			<div class="h2-index-home">
+				<h2 class="h2-index">Comment va votre visage?</h2>
+			</div>
 
 			<div class="skin-genius">
-				<h2 class="h2-button-skin-genius">Je fais mon analyse de peau avec SKIN-GENIUS</h2>
+				<h2 class="h3-index">JE FAIS MON DIAGNOSTIC AVEC</h2>
+				<button class="button-skin-genius-logo">
+					<img src="{{ asset('images/logo_skin_genius.png') }}" alt="Logo skin-genius" class="img-skin-genius">
+				</button>
+			</div>
+
+			<div class="score-skin-genius">
+				<h2 class="h2-index">Mon dernier score avec SKIN-GENIUS</h2>
+
+				<div class="uk-flex">
+
+					<div class="critère">
+						<div class="uk-card uk-card-default uk-card-body">Pores dilatés</div>
+					</div>
+
+					<div class="note-a">
+						<div class="uk-carda uk-card-default uk-card-body">7</div>
+					</div>
+
+					<div class="critère">
+						<div class="uk-card uk-card-default uk-card-body">Rides profondes</div>
+					</div>
+
+					<div class="note-a">
+						<div class="uk-carda uk-card-default uk-card-body">6,6</div>
+					</div>
+
+					<div class="critere">
+						<div class="uk-card uk-card-default uk-card-body">Pigmentation foncée</div>
+					</div>
+
+					<div class="note-a">
+						<div class="uk-carda uk-card-default uk-card-body">6</div>
+					</div>
+
+					<div class="critere">
+						<div class="uk-card uk-card-default uk-card-body">Manque d'éclat</div>
+					</div>
+
+					<div class="note-b">
+						<div class="uk-cardb uk-card-default uk-card-body">4,9</div>
+					</div>
+
+					<div class="critere">
+						<div class="uk-card uk-card-default uk-card-body">Manque de fermeté</div>
+					</div>
+
+					<div class="note-b">
+						<div class="uk-cardb uk-card-default uk-card-body">4,5</div>
+					</div>
+
+					<div class="critere">
+						<div class="uk-card uk-card-default uk-card-body">Ridules</div>
+					</div>
+
+					<div class="note-c">
+						<div class="uk-cardc uk-card-default uk-card-body">3,5</div>
+					</div>
+
+					<div class="critere">
+						<div class="uk-card uk-card-default uk-card-body">Ride</div>
+					</div>
+
+					<div class="note-c">
+						<div class="uk-cardc uk-card-default uk-card-body">3,1</div>
+					</div>
+
+
+					<div class="critere">
+						<div class="uk-card uk-card-default uk-card-body">Contour des yeux</div>
+					</div>
+
+					<div class="note-c">
+						<div class="uk-cardc uk-card-default uk-card-body">3</div>
+					</div>
+
+				</div>
 				<button class="button-skin-genius">
-					<img src="{{ asset('images/logo_skin_genius.png') }}" alt="Logo skin-genius" class="img-skin-genius"></img>
-			</button>
+					VOIR L'HISTORIQUE DE MES SCORES</button>
+			</div>
+
+			<div class="analyse-skin-genius">
+				<h2 class="h2-index">Ma dernière analyse SKIN-GENIUS</h2>
+				<button class="button-skin-genius">
+					VOIR MES STATISTIQUES DE PEAU</button>
+			</div>
+
+			<div class="photo-skin-genius">
+				<h2 class="h2-index">Ma dernière photo</h2>
+				<img src="{{ asset('images/photo.png') }}" alt="Ma dernière photo" class="img-photo">
+				<button class="button-skin-genius">
+					VOIR TOUTES MES PHOTOS</button>
+			</div>
+
+			<div class="recommandation-skin-genius">
+				<h2 class="h2-index">Ma dernière recommandation</h2>
+				<button class="button-skin-genius">
+					VOIR TOUTES MES ROUTINES BEAUTE</button>
+			</div>
+
 		</div>
-
-		<div class="score-skin-genius">
-			<h2 class="h2-button-skin-genius">Mon dernier score SKIN-GENIUS</h2>
-			<img src="{{ asset('images/score_beaute_2.jpg') }}" alt="Mon dernier score beauté" class="img-score-beaute-home"</img>
-		<button class="button-score-skin-genius">Mon historique</button>
-	</div>
-
-	<div class="analyse-skin-genius">
-		<h2 class="h2-button-scores">Ma dernière analyse SKIN-GENIUS</h2>
-		<button class="button-skin-genius">Mon historique</button>
-	</div>
-
-	<div class="photo-skin-genius">
-		<h2 class="h2-home-photos">Ma dernière photo</h2>
-		<button class="button-skin-genius">Mon historique</button>
-	</div>
-
-	<div class="routine-skin-genius">
-		<h2 class="h2-index text-center">Ma dernière recommandation</h2>
-		<button class="button-skin-genius">Mon historique beauté</button>
-	</div>
-
-</div></main>{% endblock %}
+	</main>
+{% endblock %}
