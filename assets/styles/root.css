@@ -1,11 +1,10 @@
 :root {
-    // couleurs
-    --noir: #000000;
-    --blanc: #FFFFFF;
-    --grisclair: #F1F1F1;
-    --grismoyen: #747474;
-    --rose: #E32847;
+    /* polices */
+    --text: 'Poppins', sans-serif;
+    --primarycolor: #000000;
+    --secondarycolor: #FFFFFF;
 
-    // polices
-    --text: 'Helvetica Now Display';
+    /* boutons */
+    --btnpink: #E32847;
+    --btnwhite: #F1F1F1;
 }
