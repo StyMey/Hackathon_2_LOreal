@@ -1,0 +1,59 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+	{{ parent() }}
+	- Profil
+{% endblock %}
+
+{% block body %}
+	<main class="home">
+		<div class="container-index">
+
+			<h1 class="h1-index">Bonjour
+				{{ app.user }}
+			</h1>
+
+			<div>
+				<h2 class="h2-button-skin-genius">Je scanne mon visage</h2>
+				<button class="button-skin-genius">
+					<img src="{{ asset('images/logo-skin-genius.png') }}" alt="Logo skin-genius" width='50rem'></img>
+			</button>
+		</div>
+
+		<div>
+			<h2 class="h2-button-skin-genius">Mes scores SKIN-GENIUS</h2>
+			<button class="button-skin-genius">
+				<img src="{{ asset('images/logo-skin-genius.png') }}" alt="Logo skin-genius" width='50rem'></img>
+		</button>
+	</div>
+
+
+	<div>
+		<h2 class="h2-home-photos">Mes dernières photos</h2>
+		<!-- Swiper -->
+		<div class="swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="/assets/images/carousel/agneau-rond.png" alt="assiette d'une côte d'agneau"/></div>
+				<div class="swiper-slide"><img src="/assets/images/carousel/aubergine-rond.png" alt="assiette d'une aubergine grillée"/></div>
+				<div class="swiper-slide"><img src="/assets/images/carousel/bowlvegan-rond.png" alt="assiette d'un bowl vegan"/></div>
+				<div class="swiper-slide"><img src="/assets/images/carousel/curry-rond.png" alt="assiette dun curry"/></div>
+				<div class="swiper-slide"><img src="/assets/images/carousel/pastamoules-rond.png" alt="assiette de pâtes aux moules"/></div>
+				<div class="swiper-slide"><img src="/assets/images/carousel/pastaparmesan-rond.png" alt="assiette de pâtes au parmesan"/></div>
+				<div class="swiper-slide"><img src="/assets/images/carousel/pastatomate-rond.png" alt="assitte de pâtes aux tomates cerises"/></div>
+				<div class="swiper-slide"><img src="/assets/images/carousel/ramen-rond.png" alt="assiette de ramen"/></div>
+				<div class="swiper-slide"><img src="/assets/images/carousel/saladecesar-rond.png" alt="assiette d'une salade cesar"/></div>
+				<div class="swiper-slide"><img src="/assets/images/carousel/saladevegan-rond.png" alt="assiette d'une salade vegan"/></div>
+				<div class="swiper-slide"><img src="/assets/images/carousel/sushi-rond.png" alt="plat de sushi"/></div>
+
+			</div>
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+		</div>
+	</div>
+
+	<div class="h2-home-routine">
+		<h2 class="h2-index text-center">Mes recommandations - Mes routines beauté</h2>
+
+	</div>
+
+</div></main>{% endblock %}
