@@ -1,12 +1,110 @@
 .h1-index {
     text-align: center;
     font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.h2-index {
+    font-size: 1.5rem;
 }
 
 .img-skin-genius {
-    width: 10rem;
+   width: 5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   font-family: var(--text);
+   text-align: center;
 }
 
-.img-score-beaute-home {
-    width: 10rem;
+.img-photo {
+   border-radius: 2rem;
+   width: 20rem;
 }
+
+.skin-genius {
+   border: 1px solid var(--rose);
+   width: 70%;
+   margin: auto;
+}
+
+.h3-index {
+   font-size: 15px;
+   margin:0px 0px 0px;
+   color: var(--rose);
+   font-weight: bold;
+}
+
+.button-skin-genius-logo {
+    border-width: 0;
+    margin-bottom: 0;
+}
+
+.button-skin-genius {
+background-color: var(--rose);
+color: var(--blanc);
+text-align: center;
+margin: 2rem 5rem;
+width: 15rem;
+height: 2rem;
+border: 0;
+font-weight: bold;
+}
+
+.uk-flex {
+    display: flex;
+    border-color:transparent;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   justify-content: space-between;
+   padding: 1rem;
+}
+
+.uk-card {
+    background-color: var(--grisclair);
+    color: var(--noir);
+    font-size: 15px;
+    width: 160px;
+    height: 15px;
+    padding:1px 5px 5px 5px;
+    margin: 10px;
+}
+
+.uk-carda {
+    background-color:green ;
+    color: var(--blanc);
+    font-weight: bold;
+    border-radius: 5rem;
+    width: 140px;
+    height: 15px;
+    padding:1px 1px 5px 1px;
+    margin: 10px;
+    font-size: 13px;
+}
+
+.uk-cardb {
+    background-color:goldenrod;
+    color: var(--blanc);
+    font-weight: bold;
+    border-radius: 5rem;
+    width: 140px;
+    height: 15px;
+    padding:1px 1px 5px 1px;
+    margin: 10px;
+    font-size: 13px;
+}
+
+.uk-cardc {
+    background-color: orangered;
+    color: var(--blanc);
+    font-weight: bold;
+    border-radius: 5rem;
+    width: 140px;
+    height: 15px;
+    padding:1px 1px 5px 1px;
+    margin: 10px;
+    font-size: 13px;
+}
+
+
