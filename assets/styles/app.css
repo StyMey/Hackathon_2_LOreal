@@ -7,7 +7,6 @@
 @import url('routine.css');
 @import url('score.css');
 
-
 body {
     display: flex;
     flex-direction: column;

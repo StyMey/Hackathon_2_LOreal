@@ -1,0 +1,29 @@
+.uk-navbar-container {
+    height: 30rem;
+    margin-bottom: -5rem;
+}
+
+.vaguenav {
+    position: static;
+    height: 75%;
+    width: 100%;
+}
+
+.logo {
+    padding: 0 .5rem .5rem .5rem;
+    zoom: 500%;
+}
+
+.uk-container {
+    position: relative;
+    top: -22rem;
+    right: 1rem;
+}
+
+.uk-navbar-toggle {
+    color: black;
+}
+
+.uk-navbar-dropdown-nav {
+    top: -2rem;
+}
