@@ -5,24 +5,19 @@
     margin-bottom: 0;
 }
 
-.button-histo {
-    background-color: var(--blanc);
-    color: var(--rose);
+.button-histo-analyse {
+    background-color: var(--rose);
+    color: var(--blanc);
     text-align: center;
-    margin: 2rem 5rem;
-    width: 15rem;
+    margin: 2rem 2rem;
+    width: 10rem;
     height: 2rem;
     border: 0;
-    font-weight: bold;
+    font-size: 14px;
+    padding:5px 5px 5px;
 }
 
-.button-analyse {
-background-color: var(--rose);
-color: var(--blanc);
-text-align: center;
-margin: 2rem 5rem;
-width: 15rem;
-height: 2rem;
-border: 0;
-font-weight: bold;
+.buttons-histo-analyse {
+    display:inline-flex;
+    align-content: center;
 }

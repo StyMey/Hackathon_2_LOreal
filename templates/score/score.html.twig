@@ -11,12 +11,18 @@
 		<h1 class="h1-score">Mes scores avec SKIN-GENIUS</h1>
 		<p class="p-score">L’historique des scores obtenus avec Skin Genius  depuis le début de l’utilisation de l’application, cela te permet de suivre l’évolution des critères de santé et de beauté de ton visage.</p>
 	</div>
+	<div class="buttons-histo-analyse">
+		<button class="button-histo-analyse">HISTORIQUE
+		</button>
 
-	<button class="button-histo">HISTORIQUE
-	</button>
+		<button class="button-histo-analyse">ANALYSE
+		</button>
+	</div>
 
-	<button class="button-analyse">ANALYSE
-	</button>
-	<h2 class="h2-score">Evolution rides profondes</h2>
+	<div class="score-graph4">
+		<h2 class="h2-score">Evolution des rides</h2>
+		{{ content4|raw }}
+
+	</div>
 
 {% endblock %}

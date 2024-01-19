@@ -19,12 +19,14 @@ class ScoreController extends AbstractController
     #[Route('/', name: 'score')]
     public function index(): Response
     {
-        $response = $this->client->request(
+
+        $response4 = $this->client->request(
             'GET',
-            'http://188.166.208.105:5000/chart/4/rides_profondes'
+            'http://188.166.208.105:5000/chart/4/pigmentation_foncee'
         );
 
-        $content = $response->getContent();
-        return $this->render('score.html.twig', ['content' => $content]);
+        $content4 = $response4->getContent();
+
+        return $this->render('score/score.html.twig', ['content4' => $content4]);
     }
 }
